@@ -1,5 +1,5 @@
 {
-  "spider": "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe",
+  "spider": "https://gh-proxy.com/raw.githubusercontent.com/Escape318/tvbox/master/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe",
   "wallpaper": "https://wallpaper-1tg.pages.dev/",
   "sites": [
     {
@@ -9,15 +9,7 @@
       "api": "csp_Market",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./json/market.json"
-    },
-    {
-      "key": "泥巴",
-      "name": "泥巴",
-      "type": 3,
-      "api": "csp_NiNi",
-      "searchable": 1,
-      "changeable": 1
+      "ext": "https://raw.githubusercontent.com/Escape318/tvbox/master/json/market.json"
     },
     {
       "key": "星星",
@@ -36,7 +28,7 @@
       "changeable": 0,
       "ext": {
         "token": "影視天下第一",
-        "filter": "./json/wogg.json"
+        "filter": "https://raw.githubusercontent.com/Escape318/tvbox/master/json/wogg.json"
       }
     },
     {
@@ -46,7 +38,7 @@
       "api": "csp_Jianpian",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./json/jianpian.json"
+      "ext": "https://raw.githubusercontent.com/Escape318/tvbox/master/json/jianpian.json"
     },
     {
       "key": "獨播",
@@ -55,49 +47,7 @@
       "api": "csp_XPathMacFilter",
       "searchable": 1,
       "changeable": 1,
-      "ext": "./json/duboku.json"
-    },
-    {
-      "key": "haiwaikan",
-      "name": "海外看",
-      "type": 1,
-      "api": "https://haiwaikan.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "日本动漫",
-        "国产动漫",
-        "欧美动漫",
-        "国产剧",
-        "韩剧",
-        "日剧",
-        "台剧",
-        "泰剧",
-        "港剧",
-        "欧美剧",
-        "动画电影",
-        "韩国综艺",
-        "国产综艺",
-        "日本综艺",
-        "欧美综艺",
-        "冒险片",
-        "剧情片",
-        "动作片",
-        "同性片",
-        "喜剧片",
-        "奇幻片",
-        "恐怖片",
-        "悬疑片",
-        "惊悚片",
-        "战争片",
-        "歌舞片",
-        "灾难片",
-        "爱情片",
-        "犯罪片",
-        "科幻片",
-        "纪录片",
-        "经典片"
-      ]
+      "ext": "https://raw.githubusercontent.com/Escape318/tvbox/master/json/duboku.json"
     },
     {
       "key": "豆瓣",
@@ -106,7 +56,7 @@
       "api": "csp_Douban",
       "searchable": 0,
       "changeable": 1,
-      "ext": "./json/douban.json"
+      "ext": "https://raw.githubusercontent.com/Escape318/tvbox/master/json/douban.json"
     },
     {
       "key": "新6V",
@@ -145,14 +95,6 @@
       "changeable": 1
     },
     {
-      "key": "快帆",
-      "name": "快帆",
-      "type": 1,
-      "api": "https://api.kuaifan.tv/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "量子",
       "name": "量子",
       "type": 1,
@@ -165,14 +107,6 @@
       "name": "非凡",
       "type": 1,
       "api": "http://cj.ffzyapi.com/api.php/provide/vod",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "櫻花",
-      "name": "櫻花",
-      "type": 3,
-      "api": "csp_Ying",
       "searchable": 1,
       "changeable": 1
     },
@@ -204,7 +138,7 @@
         "ratio": 1.433
       },
       "ext": {
-        "json": "./json/bili.json",
+        "json": "https://raw.githubusercontent.com/Escape318/tvbox/master/json/bili.json",
         "type": "帕梅拉#太极拳#广场舞#演唱会",
         "cookie": ""
       }
@@ -213,7 +147,7 @@
       "key": "bili_open",
       "name": "哔哩貓",
       "type": 3,
-      "api": "./cat/js/bili_open.js",
+      "api": "https://raw.githubusercontent.com/Escape318/tvbox/master/cat/js/bili_open.js",
       "searchable": 1,
       "changeable": 0,
       "ext": {
@@ -244,7 +178,7 @@
       "api": "csp_AList",
       "searchable": 1,
       "changeable": 0,
-      "ext": "./json/alist.json"
+      "ext": "https://raw.githubusercontent.com/Escape318/tvbox/master/json/alist.json"
     },
     {
       "key": "WebDAV",
@@ -253,31 +187,7 @@
       "api": "csp_WebDAV",
       "searchable": 0,
       "changeable": 0,
-      "ext": "./json/webdav.json"
-    },
-    {
-      "key": "JustLive",
-      "name": "JustLive",
-      "type": 3,
-      "api": "csp_JustLive",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "七夜",
-      "name": "七夜",
-      "type": 3,
-      "api": "csp_Dovx",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
-      "key": "易搜",
-      "name": "易搜",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "changeable": 0
+      "ext": "https://raw.githubusercontent.com/Escape318/tvbox/master/json/webdav.json"
     },
     {
       "key": "雲搜",
@@ -304,14 +214,6 @@
       "changeable": 0
     },
     {
-      "key": "盤搜索",
-      "name": "盤搜索",
-      "type": 3,
-      "api": "csp_PanSearch",
-      "searchable": 1,
-      "changeable": 0
-    },
-    {
       "key": "找資源",
       "name": "找資源",
       "type": 3,
@@ -328,6 +230,94 @@
       "searchable": 0,
       "changeable": 0,
       "timeout": 60
+    },
+    {
+      "key": "add_api_apibdzy_com",
+      "name": "百度采集",
+      "type": 1,
+      "api": "https://api.apibdzy.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_caiji_dyttzyapi_com",
+      "name": "电影天堂",
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_tyyszy_com",
+      "name": "天涯资源",
+      "type": 1,
+      "api": "http://tyyszy.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_ffzy_tv",
+      "name": "非凡直连",
+      "type": 1,
+      "api": "http://ffzy.tv/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_jszyapi_com",
+      "name": "极速资源",
+      "type": 1,
+      "api": "https://jszyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_154_219_117_232:9981",
+      "name": "建安资源",
+      "type": 1,
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_155api_com",
+      "name": "155资源",
+      "type": 1,
+      "api": "https://155api.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_lbapi9_com",
+      "name": "乐播资源",
+      "type": 1,
+      "api": "https://lbapi9.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_api_ddapi_cc",
+      "name": "滴滴资源",
+      "type": 1,
+      "api": "https://api.ddapi.cc/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_fhapi9_com",
+      "name": "废柴资源",
+      "type": 1,
+      "api": "http://fhapi9.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "add_apiyutu_com",
+      "name": "玉兔资源",
+      "type": 0,
+      "api": "https://apiyutu.com/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1
     }
   ],
   "doh": [
